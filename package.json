@@ -1,5 +1,6 @@
 {
   "name": "darkknight",
+  "publisher": "nsdev",
   "displayName": "DarkKnight",
   "description": "A dark theme for VS Code developers",
   "version": "0.0.1",
