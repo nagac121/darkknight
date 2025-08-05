@@ -4,6 +4,10 @@
   "displayName": "DarkKnight",
   "description": "A dark theme for VS Code developers",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nagac121/darkknight.git"
+  },
   "engines": {
     "vscode": "^1.102.0"
   },
