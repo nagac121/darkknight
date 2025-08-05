@@ -1,10 +1,14 @@
 {
   "name": "DarkKnight",
   "colors": {
-    "editor.background": "#000000",
-    "editor.foreground": "#eeffff",
     "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "editor.background": "#000000",
+    // "editor.foreground": "#eeffff",
+    "sideBarTitle.background": "#262525",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "sideBar.background": "#151414"
+    // "sideBar.foreground": "#cccccc"
+    // "sideBarSectionHeader.background": "#1f1e1e" // (optional) for text color in sidebar
   },
   "tokenColors": [
     {
