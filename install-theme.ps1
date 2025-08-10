@@ -1,21 +1,23 @@
-# install-theme.ps1
-# This script installs the Dark Knight theme for Visual Studio Code
-
-# Clean old vsix
-if (Test-Path ".\darkknight-0.0.1.vsix") {
-    Remove-Item ".\darkknight-0.0.1.vsix" -Force
-    Write-Host "Removed old .vsix file"
-}else {
-    Write-Host "No .vsix file found to clean up"
+﻿# install-theme.ps1
+# Exit if vsce is not installed
+if (-not (Get-Command vsce -ErrorAction SilentlyContinue)) {
+    Write-Host "vsce is not installed. Installing globally..."
+    npm install -g vsce
 }
 
-# Package
+# Remove old .vsix files
+Remove-Item *.vsix -ErrorAction SilentlyContinue
+
+# Package the theme
 vsce package
 
-# Install
-code --install-extension .\darkknight-0.0.1.vsix --force
-Write-Host "✅ Installed Dark Knight theme successfully"
-Write-Host "ℹ️  Please restart VS Code to see theme changes take effect."
+# Get the newly created .vsix file
+$vsix = Get-ChildItem *.vsix | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 
-# RUN:
-# PS D:\dumps\work\repos\githubrepos\darkknight> .\install-theme.ps1
+if ($vsix) {
+    # Install the theme into VS Code
+    code --install-extension $vsix.FullName
+    Write-Host "Theme installed successfully: $($vsix.Name)"
+} else {
+    Write-Host "No .vsix file found. Packaging may have failed."
+}

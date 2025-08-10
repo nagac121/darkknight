@@ -1,5 +1,6 @@
 {
-  "name": "DarkKnight",
+  "name": "Dark Knight",
+  "type": "dark",
   "colors": {
     "activityBarBadge.background": "#007acc",
     "editor.background": "#000000",
