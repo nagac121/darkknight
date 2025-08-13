@@ -1,0 +1,39 @@
+{
+  "name": "Dark Knight",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "constant.other.key",
+        "entity.other.inherited-class",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "foreground": "#F8D061"
+      }
+    },
+    {
+      "name": "JSX Text Nodes",
+      "scope": ["text.html.jsx", "meta.jsx.children"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JSX Attribute Names (className, etc.)",
+      "scope": [
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    }
+  ]
+}

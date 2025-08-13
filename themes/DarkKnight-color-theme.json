@@ -553,6 +553,24 @@
       "settings": {
         "foreground": "#EEFFFF"
       }
+    },
+    {
+      "name": "JSX Text Nodes",
+      "scope": ["text.html.jsx", "meta.jsx.children"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JSX Attribute Names (className, etc.)",
+      "scope": [
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
     }
   ]
 }
