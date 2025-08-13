@@ -34,6 +34,30 @@
       "settings": {
         "foreground": "#82AAFF"
       }
+    },
+    {
+      "name": "Function Names (JS/JSX)",
+      "scope": [
+        "entity.name.function.js",
+        "entity.name.function.jsx",
+        "entity.name.function.ts",
+        "entity.name.function.tsx"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Function Names (JS/JSX)",
+      "scope": [
+        "variable.other.constant.js",
+        "variable.other.constant.jsx",
+        "variable.other.constant.ts",
+        "variable.other.constant.tsx"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
     }
   ]
 }
