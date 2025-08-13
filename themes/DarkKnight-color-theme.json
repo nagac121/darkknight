@@ -573,27 +573,45 @@
       }
     },
     {
-      "name": "Function Names (JS/JSX)",
+      "name": "JSX/HTML Tag Names",
       "scope": [
-        "entity.name.function.js",
-        "entity.name.function.jsx",
-        "entity.name.function.ts",
-        "entity.name.function.tsx"
+        "entity.name.tag.jsx",
+        "entity.name.tag.js",
+        "entity.name.tag.html"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#8decb9"
       }
     },
     {
-      "name": "Function Names (JS/JSX)",
+      "name": "JSX/HTML Tag Names",
       "scope": [
-        "variable.other.constant.js",
-        "variable.other.constant.jsx",
-        "variable.other.constant.ts",
-        "variable.other.constant.tsx"
+        "support.class.component.jsx",
+        "support.class.component.js",
+        "support.class.component.html"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#8decb9"
+      }
+    },
+    {
+      "name": "JS/JSX White Identifiers",
+      "scope": [
+        "variable.parameter",
+        "variable.other.constant",
+        "entity.name.function",
+        "variable.other.readwrite",
+        "variable.other.object"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "JS/JSX Brown Identifiers",
+      "scope": ["string.template", "string.quoted.double"],
+      "settings": {
+        "foreground": "#CE9178"
       }
     }
   ]
