@@ -65,6 +65,21 @@
       "settings": {
         "foreground": "#CE9178"
       }
+    },
+    {
+      "name": "JS/JSX Variables",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#ea9999"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#93c47d"
+      }
     }
   ]
 }

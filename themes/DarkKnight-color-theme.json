@@ -15,14 +15,6 @@
   },
   "tokenColors": [
     {
-      "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#afafb9" // for testing
-      }
-    },
-    {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
@@ -608,10 +600,25 @@
       }
     },
     {
-      "name": "JS/JSX Brown Identifiers",
+      "name": "JS/JSX Variables",
       "scope": ["string.template", "string.quoted.double"],
       "settings": {
-        "foreground": "#CE9178"
+        "foreground": "#FFD866"
+      }
+    },
+    {
+      "name": "JS/JSX Brown Identifiers",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#ea9999"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#93c47d"
       }
     }
   ]
