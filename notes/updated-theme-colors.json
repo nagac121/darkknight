@@ -36,17 +36,6 @@
       }
     },
     {
-      "name": "JSX/HTML Tag Names",
-      "scope": [
-        "entity.name.tag.jsx",
-        "entity.name.tag.js",
-        "entity.name.tag.html"
-      ],
-      "settings": {
-        "foreground": "#8decb9"
-      }
-    },
-    {
       "name": "JS/JSX White Identifiers",
       "scope": [
         "variable.parameter",
@@ -60,14 +49,14 @@
       }
     },
     {
-      "name": "JS/JSX Brown Identifiers",
+      "name": "JS/JSX strings",
       "scope": ["string.template", "string.quoted.double"],
       "settings": {
-        "foreground": "#CE9178"
+        "foreground": "#FFD866"
       }
     },
     {
-      "name": "JS/JSX Variables",
+      "name": "JS/JSX Variable property",
       "scope": ["variable.other.property"],
       "settings": {
         "foreground": "#ea9999"
@@ -79,6 +68,13 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#93c47d"
+      }
+    },
+    {
+      "name": "JSX/HTML & React Component Tag Names",
+      "scope": ["entity.name.tag", "support.class.component"],
+      "settings": {
+        "foreground": "#8decb9"
       }
     }
   ]
