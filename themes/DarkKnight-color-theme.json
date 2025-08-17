@@ -585,13 +585,6 @@
       }
     },
     {
-      "name": "JS/JSX Variable property",
-      "scope": ["variable.other.property"],
-      "settings": {
-        "foreground": "#ea9999"
-      }
-    },
-    {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -604,6 +597,13 @@
       "scope": ["entity.name.tag", "support.class.component"],
       "settings": {
         "foreground": "#d5a6bd"
+      }
+    },
+    {
+      "name": "JSX/HTML & React Component Tag Attributes",
+      "scope": ["support.variable.property","variable.other.property"],
+      "settings": {
+        "foreground": "#ea9999"
       }
     }
   ]
