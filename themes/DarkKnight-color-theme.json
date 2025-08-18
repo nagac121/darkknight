@@ -65,7 +65,6 @@
     {
       "name": "Tag",
       "scope": [
-        "entity.name.tag",
         "meta.tag.sgml",
         "markup.deleted.git_gutter"
       ],
@@ -282,7 +281,7 @@
     {
       "name": "Decorators",
       "scope": [
-        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js",
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
@@ -596,7 +595,7 @@
       "name": "JSX/HTML & React Component Tag Names",
       "scope": ["entity.name.tag", "support.class.component"],
       "settings": {
-        "foreground": "#d5a6bd"
+        "foreground": "#ea9999"
       }
     },
     {
