@@ -39,7 +39,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#2986cc"
+        "foreground": "#6fa8dc"
       }
     },
     {
