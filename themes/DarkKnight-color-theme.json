@@ -2,8 +2,8 @@
   "name": "Dark Knight",
   "type": "dark",
   "colors": {
-    "editor.background": "#000000",   // Black background
-    "editor.foreground": "#ffffff",   // Default text color (fallback)
+    "editor.background": "#000000", // Black background
+    "editor.foreground": "#ffffff", // Default text color (fallback)
     "editorCursor.foreground": "#ffffff", // White cursor
     "editor.lineHighlightBorder": "#00000000", // No border for line highlight
     "editor.lineHighlightBackground": "#ffff002b", // Line highlight with transparency
