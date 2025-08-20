@@ -42,6 +42,11 @@
       "name": "Variable",
       "scope": "variable",
       "settings": { "foreground": "#9cdcfe" }
+    },
+    {
+      "name": "storage",
+      "scope": "storage",
+      "settings": { "foreground": "#ea9999" }
     }
   ]
 }
